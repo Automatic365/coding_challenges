@@ -1,5 +1,5 @@
 class Sieve
-  attr_reader :num_array, :limit
+  attr_reader :limit
 
   def initialize(limit)
     @limit = limit
