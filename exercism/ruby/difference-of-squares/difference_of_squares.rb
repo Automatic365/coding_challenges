@@ -10,8 +10,7 @@ class Squares
   end
 
   def sum_of_squares(number = num)
-    squares = num.map {|number| number**2}
-    squares.reduce(:+)
+    num.map {|number| number ** 2}.reduce(:+)
   end
 
   def difference
